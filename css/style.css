@@ -45,7 +45,53 @@ a:hover,a:focus {
 	color: #222;
 }
 
+.wrapper {
+width: 50%;
+position: relative;
+}
+ 
+img {
+display: block;
+width: 100%;
+height: auto;
+}
+.content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+color: #ffffff;
+font-size: 25px;
+}
+ 
+.content span{
+font-size: 24px;
+    display:inline;
+}
+ 
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #ffeeee;
+}
+ 
+.wrapper:hover .overlay {
+opacity: 1;
+}
 
+/*.img {
+    display:block;
+    width:50%;
+    height:auto;*/
+}
 /* Navbar */
 
 .navbar-fixed-top .nav {
@@ -290,14 +336,22 @@ a:hover,a:focus {
 }
 /* Brand */
 
+.list-display {
+    display:inline-block;
+}
+
 .logo-list img {
-	width:100%;
-	height:auto;
+    width:50%;
 	opacity:0.8;
+    display:inline-block;
+}
+
+.logo-size img{
+    width:20%;
 }
 
 .logo-list li {
-    padding-top:5%
+    padding-top:2%
 }
 
 .logo-list li a:hover, 
@@ -374,4 +428,8 @@ footer p {
     right: 30px;
     bottom: 30px;
   }
+}
+
+pic {
+    float:left;
 }
