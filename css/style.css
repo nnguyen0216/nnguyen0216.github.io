@@ -45,7 +45,7 @@ a:hover,a:focus {
 	color: #222;
 }
 
-.wrapper {
+/*.wrapper {
 width: 50%;
 position: relative;
 }
@@ -91,7 +91,7 @@ opacity: 1;
     display:block;
     width:50%;
     height:auto;*/
-}
+}*/
 /* Navbar */
 
 .navbar-fixed-top .nav {
