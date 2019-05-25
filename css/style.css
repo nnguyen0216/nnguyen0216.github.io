@@ -45,6 +45,16 @@ a:hover,a:focus {
 	color: #222;
 }
 
+
+div.pic {
+    float:left;
+}
+
+.responsive {
+    float:left;
+    width:24.99%
+}
+
 /*.wrapper {
 width: 50%;
 position: relative;
@@ -420,6 +430,12 @@ footer p {
     right: 20px;
     bottom: 20px;
   }
+    .responsive {
+        padding: 8px 8px;
+    }
+    .page-titles {
+        margin-left:8px;
+    }
 }
 @media only screen and (min-width: 1024px) {
   .cd-top {
@@ -430,6 +446,45 @@ footer p {
   }
 }
 
-pic {
-    float:left;
+
+@media only screen and (max-width:411px) {
+    .responsive {
+        width: 100;
+        padding-bottom: 1.5em;
+    }
+    .page-titles {
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .responsive {
+        width: 100;
+        padding-bottom: 1.5em;
+        padding: 11px;
+    }
+    .page-titles {
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .responsive {
+        width: 100;
+        padding-bottom: 1em;
+        margin-right:1em;
+    }
+    .page-titles {
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .responsive {
+        width: 100;
+        padding-bottom: 1em;
+        margin-right:1em;
+    }
+    .page-titles {
+    }
 }
