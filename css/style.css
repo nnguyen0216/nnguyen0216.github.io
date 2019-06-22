@@ -431,7 +431,7 @@ footer p {
     bottom: 20px;
   }
     .responsive {
-        padding: 8px 8px;
+    padding: 8px 8px;
     }
     .page-titles {
         margin-left:8px;
@@ -453,7 +453,7 @@ footer p {
         padding-bottom: 1.5em;
     }
     .page-titles {
-        text-align:center;
+        margin-left:8px;
     }
 }
 
@@ -464,7 +464,7 @@ footer p {
         padding: 11px;
     }
     .page-titles {
-        text-align:center;
+        margin-left:8px;
     }
 }
 
@@ -475,7 +475,7 @@ footer p {
         margin-right:1em;
     }
     .page-titles {
-        text-align:center;
+        margin-left:8px;
     }
 }
 
@@ -486,5 +486,6 @@ footer p {
         margin-right:1em;
     }
     .page-titles {
+        margin-left:8px;
     }
 }
