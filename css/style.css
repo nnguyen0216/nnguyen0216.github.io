@@ -17,6 +17,17 @@ page-titles {
     text-align:center;
 }
 
+h1 {
+    font-weight: 900;
+    line-height: 1.45;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    line-height: 15px;
+}
+
 p{
 	font-family: 'Karla', sans-serif;
 	font-weight:300;
